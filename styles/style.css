@@ -17,6 +17,97 @@
 
 /* shared style */
 
+
+
+.section-title{
+    font-size: 32px;
+    font-weight: 800;
+    color: rgb(13, 19, 33);
+    margin-bottom: 24px;
+}
+
+.section-description{
+    font-family: Azeret Mono;
+    font-weight: 400;
+    line-height: 26px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    opacity: 0.7;
+}
+
+.section-header{
+    max-width: 852px;
+    max-height: 115px;
+    border: 1px solid red;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 48px;
+}
+
+.learn-more{
+    display: flex;
+    justify-content: space-between;
+    padding: 48px;
+    border: 1px solid red;
+}
+
+.mid-last{
+    margin-top: 32px;
+}
+
+.text-container{
+    max-width: 477px;}
+
+.text-title{
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.text-description{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+
+.btn-learn-more{
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 12px 20px 12px 20px;
+}
+
+.learn-more-pic{
+    max-width: 259.56px;
+    max-height: 217.01px;
+    left: 0.36%;
+    right: -0.36%;
+    top: 1.74%;
+    bottom: -1.74%;
+}
+
 /* nav styles */
 
 nav{
@@ -24,8 +115,8 @@ nav{
     align-items: center;
     justify-content: space-around;
     border: 2px dashed lightgray;
-    padding-bottom: 45px;
-    padding-top: 45px;
+    padding-bottom: 35px;
+    padding-top: 35px;
 }
 
 .nav-title{
@@ -59,3 +150,82 @@ nav li a{
     padding: 17px 24px 17px 24px;
 }
 
+/* banner styles */
+
+.banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../assets/Hero-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-content{
+    text-align: center;
+}
+
+.banner-title{
+    color: rgb(13, 19, 33);
+    font: Azeret Mono;
+    font-weight: 800;
+    font-size: 48px;
+}
+
+.banner-description{
+    font-family: Azeret Mono;
+    font-weight: 400;
+    line-height: 26px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    opacity: 0.7;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+
+.btn-contact{
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    padding: 21px 24px 21px 24px;
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 44px;
+    border: none;
+}
+
+.banner-pic{
+    width: 240.28px;
+    height: 240px;
+    margin-top: 26px;
+    margin-bottom: 32px;
+}
+
+/* web development styles */
+
+.web-development{
+    max-width: 1140px;
+    max-height: 1395px;
+    padding: 80px 97px 80px 97px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    border: 2px solid red;
+    margin: 0 auto;
+    margin-top: 74px;
+    margin-bottom: 88px;
+}
+
+/* inspiration styles */
+
+.inspiration{
+    
+}

@@ -227,5 +227,93 @@ nav li a{
 /* inspiration styles */
 
 .inspiration{
-    
+    max-width: 1140px;
+    max-height: 775px;
+    margin: 0 auto;
+    border: 2px solid red;
+    margin-bottom: 151px;
+}
+
+.youtube-embd{
+    max-width: 1140px;
+    max-height: 614px;
+    /* max-width: 1076px;
+    max-height: 550px; */
+    /* margin: 10px 0px; */
+    padding: 25px 25px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+}
+
+/* current target styles */
+
+.current-target{
+    border: 2px solid red;
+    max-width: 1140px;
+    max-height: 460px;
+    margin: 0 auto;
+    margin-bottom: 49px;
+}
+
+.card-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    border: 2px solid red;
+    max-width: 364px;
+    max-height: 295px;
+    padding: 35px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    justify-content: center;
+}
+
+.ht{
+    background: rgba(255, 76, 30, 0.05);
+}
+
+.cs{
+    background: rgba(0, 76, 232, 0.05);
+}
+
+.js{
+    background: rgba(255, 223, 0, 0.05);
+}
+
+.img-box{
+    max-width: 56px;
+    max-height: 56px;
+}
+
+.img-box img{
+    width: 100%;
+    height: 100%;
+}
+
+.card h5{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.card p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+}
+
+.link a{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration-line: underline;
 }

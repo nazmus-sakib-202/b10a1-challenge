@@ -42,7 +42,7 @@
 .section-header{
     max-width: 852px;
     max-height: 115px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     text-align: center;
     margin: 0 auto;
     margin-bottom: 48px;
@@ -52,7 +52,7 @@
     display: flex;
     justify-content: space-between;
     padding: 48px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .mid-last{
@@ -117,6 +117,9 @@ nav{
     border: 2px dashed lightgray;
     padding-bottom: 35px;
     padding-top: 35px;
+    max-width: 1440px;
+    max-height: 100px;
+    margin: 0 auto;
 }
 
 .nav-title{
@@ -148,6 +151,7 @@ nav li a{
     font-weight: 600;
     text-align: center;
     padding: 17px 24px 17px 24px;
+    cursor: pointer;
 }
 
 /* banner styles */
@@ -160,6 +164,9 @@ nav li a{
     background-image: url("../assets/Hero-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
+    max-width: 1440px;
+    max-height: 652px;
+    margin: 0 auto;
 }
 
 .banner-content{
@@ -201,6 +208,7 @@ nav li a{
     text-align: center;
     margin-bottom: 44px;
     border: none;
+    cursor: pointer;
 }
 
 .banner-pic{
@@ -218,7 +226,7 @@ nav li a{
     padding: 80px 97px 80px 97px;
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin: 0 auto;
     margin-top: 74px;
     margin-bottom: 88px;
@@ -230,7 +238,7 @@ nav li a{
     max-width: 1140px;
     max-height: 775px;
     margin: 0 auto;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin-bottom: 151px;
 }
 
@@ -249,7 +257,7 @@ nav li a{
 /* current target styles */
 
 .current-target{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     max-width: 1140px;
     max-height: 460px;
     margin: 0 auto;
@@ -262,7 +270,7 @@ nav li a{
 }
 
 .card{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     max-width: 364px;
     max-height: 295px;
     padding: 35px;
@@ -332,7 +340,7 @@ nav li a{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin-bottom: 80px;
     display: flex;
     flex-direction: column;
@@ -405,4 +413,39 @@ nav li a{
     border-radius: 8px;
     background: rgb(255, 255, 255);
     border: none;
+    cursor: pointer;
+}
+
+/* footer styles */
+
+.footer{
+    max-width: 1440px;
+    max-height: 100px;
+    margin: 0 auto;
+    padding: 32px 150px 32px 150px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-text{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.social-link{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+#ft{
+    /* connect with footer and "contact with me" button */
 }
